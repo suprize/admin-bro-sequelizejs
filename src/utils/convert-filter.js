@@ -33,6 +33,12 @@ const convertFilter = (filter) => {
         }
       }
       break
+    case 'uuid': 
+      return {
+        [property.name()]: { [Op.eq]: escape(value) },
+        ...memo,  
+      }    
+      break
     default:
       break
     }

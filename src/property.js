@@ -23,7 +23,7 @@ const TYPES_MAPPING = [
   ['RANGE', 'string'],
   ['GEOMETRY', 'string'],
   ['BOOLEAN', 'boolean'],
-  ['UUIDV4', 'string']
+  ['UUID', 'uuid'],
 ]
 
 class Property extends BaseProperty {
