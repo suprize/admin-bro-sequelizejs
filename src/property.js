@@ -16,7 +16,6 @@ const TYPES_MAPPING = [
   ['JSON', 'object'],
   ['JSONB', 'object'],
   ['BLOB', 'string'],
-  ['UUID', 'string'],
   ['CIDR', 'string'],
   ['INET', 'string'],
   ['MACADDR', 'string'],
